@@ -1,9 +1,9 @@
 # MATACS-TH-2026-02: AI Proposal Triage Design
 
-- **Name:** <<FILL: your full name>>
+- **Name:** Haseeb Mughal
 - **Reference:** MATACS-TH-2026-02
 - **Role:** Associate Software Developer
-- **Time actually spent:** <<FILL: your real time, e.g. "about 2 hours (60 min design + 60 min reviewing and editing)">>
+- **Time actually spent:** This Assessment took about 2 hours (60 min design + 60 min reviewing and editing)
 
 ## Summary
 
@@ -25,7 +25,9 @@ Proposals are referred to by letter (A to E) only. No brief or sample proposal t
 
 ## How I used AI tools
 
-<<FILL: write 2 to 3 sentences in your own words. Say which tool(s) you used (for example Claude) and what for (for example drafting the write-up, the prompts and the diagram script). Then include at least ONE real place where you disagreed with or corrected the AI's output, and explain why.>>
+## How I used AI tools
+
+I used Claude to help draft the write-up, the two prompts, the process-flow diagram script and the small scoring prototype, and I used its scoring script to check the ranking numbers. I reviewed the output against the brief rather than accepting it as-is. In one place the AI's output was wrong: its hand-calculated provisional score for D did not match what the script computed (a rounding difference at 73.25), so I replaced the exact figure with "about 73". The first draft of the write-up was also over the 1,000-word limit, so I had it trimmed to 973 words. Several of the sample cases (B, C and D) also needed a judgement call on whether to mark them ineligible or flagged, and I reviewed those decisions myself before submitting.
 
 <!-- Ideas for a genuine disagreement. Use one ONLY if it is true for you after you review the design:
      - You changed how C is handled (ranked with a note instead of flagged), or kept it flagged and can explain why.
